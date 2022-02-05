@@ -53,7 +53,7 @@ public class testDivision {
     }
 
     @Test
-    @Timeout(2);
+    @Timeout(4)
     public void testingTimeout() throws InterruptedException{
         Thread.sleep(3500);
         System.out.println("This test has been successful in the appropriate time length");
