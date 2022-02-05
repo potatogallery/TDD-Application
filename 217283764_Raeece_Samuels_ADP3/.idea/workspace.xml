@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74a1bc02-7117-4c75-90ca-522a6d09009d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/dividingNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/testDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/src/main/java/za/ac/cput/Domain/MultiplyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/src/main/java/za/ac/cput/Domain/MultiplyNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/src/test/java/za/ac/cput/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../219169357_KeallanSaunders_ADP3/src/test/java/za/ac/cput/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +22,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="24h8scenWiSmSnh1Om2dpCVlWhK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,6 +43,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="testDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="217283764_Raeece_Samuels_ADP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.ac.cput" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.testDivision" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testDivision" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +81,29 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/217283764" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
