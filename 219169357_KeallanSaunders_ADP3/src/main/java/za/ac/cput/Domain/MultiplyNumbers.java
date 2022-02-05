@@ -1,18 +1,23 @@
 /**
  * MultiplyNumbers.java
  * @author Keallan Saunders 219169357
- * DomainClass
+ * DomainClass GETTER CLASS
  * 05 Feb 2022
  */
 package za.ac.cput.Domain;
 
 public class MultiplyNumbers {
-    private int parrow(int a, int b, int c){
-        a = 10;
-        b = 5;
-        c = 0;
+    private String sname;
+    private boolean boost = true;
 
-        return a * b * c;
+    public MultiplyNumbers(String sname){
+      this.sname= sname;
+    }
+    public String getSname(){
+     return sname;
+    }
+    public boolean Boosting(){
 
+        return boost;
     }
 }

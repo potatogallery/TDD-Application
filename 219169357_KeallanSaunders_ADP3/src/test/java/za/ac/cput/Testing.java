@@ -14,14 +14,18 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Assertions;
+import za.ac.cput.Domain.MultiplyNumbers;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 public class Testing {
-    public Testing Boom1;
-    public Testing Boom2;
-    public Testing Boom3;
+
 
 
     @org.junit.jupiter.api.BeforeAll
@@ -30,22 +34,17 @@ public class Testing {
 
     @org.junit.jupiter.api.BeforeEach
     public void setUp() throws Exception {
-        Boom1 = new Testing();
-        Boom2 = new Testing();
-        Boom3 = new Testing();
-        Boom3 = Boom1;
     }
-
-
-
     @Test
     public void testEquality(){
-        Assertions.assertEquals(Boom1,Boom3);
+        MultiplyNumbers a = new MultiplyNumbers("Bonno");
+        assertEquals("Bonno",a.getSname());
         System.out.println("Equality is working!");
     }
     @Test
     public void testIdentity(){
-        Assertions.assertSame(Boom1,Boom3);
+        MultiplyNumbers a = new MultiplyNumbers("Bonno");
+        assertTrue(a.Boosting());
         System.out.println("Identity is working!");
     }
     @Test
